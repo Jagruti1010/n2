@@ -31,7 +31,7 @@ public class FloatingLabelsFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View rootView = inflater.inflate(R.layout.fragment_floating_labels, container, false);
         recycle=(RecyclerView)rootView.findViewById(R.id.recycle);
-        recycle.setHasFixedSize(true);
+        
 
 
 
